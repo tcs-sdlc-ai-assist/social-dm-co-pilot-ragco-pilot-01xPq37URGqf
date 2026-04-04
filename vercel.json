@@ -1,8 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/((?!_next|favicon.ico|.*\\..*).*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": "nextjs"
 }
