@@ -1,0 +1,702 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Jessica Martinez",
+    "handle": "@jessicam_realty",
+    "platform": "Facebook",
+    "contact": {
+      "email": "jessica.martinez@email.com",
+      "phone": "+1 (555) 234-5678"
+    },
+    "budget": {
+      "min": 350000,
+      "max": 400000
+    },
+    "location": "Westfield",
+    "intent": "buy",
+    "inquiryType": "availability",
+    "score": 82,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-001"],
+    "notes": "Looking to move in by February. Interested in Oak Street Colonial.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T09:23:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T09:23:00.000Z",
+    "updatedAt": "2024-12-15T09:23:00.000Z"
+  },
+  {
+    "id": "lead-002",
+    "name": "Marcus Thompson",
+    "handle": "@marcust",
+    "platform": "Instagram",
+    "contact": {
+      "email": "marcus.thompson@email.com",
+      "phone": "+1 (555) 345-6789"
+    },
+    "budget": {
+      "min": 300000,
+      "max": 450000
+    },
+    "location": "Riverside",
+    "intent": "buy",
+    "inquiryType": "pricing",
+    "score": 88,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-002", "prop-003"],
+    "notes": "Pre-approved for up to $450k. Interested in Riverside Condos.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T10:05:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T10:05:00.000Z",
+    "updatedAt": "2024-12-15T10:05:00.000Z"
+  },
+  {
+    "id": "lead-003",
+    "name": "Aisha Patel",
+    "handle": "@aisha.patel.homes",
+    "platform": "Facebook",
+    "contact": {
+      "email": "aisha.patel@email.com",
+      "phone": null
+    },
+    "budget": {
+      "min": 400000,
+      "max": 450000
+    },
+    "location": "Greenwood",
+    "intent": "buy",
+    "inquiryType": "property",
+    "score": 75,
+    "sentiment": "neutral",
+    "status": "Drafted",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-004"],
+    "notes": "Asking about square footage and garage at 142 Maple Drive.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T10:47:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T10:47:00.000Z",
+    "updatedAt": "2024-12-15T10:47:00.000Z"
+  },
+  {
+    "id": "lead-004",
+    "name": "David Chen",
+    "handle": "@dchen_investor",
+    "platform": "Instagram",
+    "contact": {
+      "email": "david.chen@email.com",
+      "phone": "+1 (555) 456-7890"
+    },
+    "budget": {
+      "min": 600000,
+      "max": 750000
+    },
+    "location": "Downtown",
+    "intent": "invest",
+    "inquiryType": "property",
+    "score": 92,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-006"],
+    "notes": "Investor looking for multi-family properties with 4+ units downtown.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T11:12:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T11:12:00.000Z",
+    "updatedAt": "2024-12-15T11:12:00.000Z"
+  },
+  {
+    "id": "lead-005",
+    "name": "Rachel Nguyen",
+    "handle": "@racheln",
+    "platform": "Facebook",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": null,
+      "max": null
+    },
+    "location": null,
+    "intent": "buy",
+    "inquiryType": "general",
+    "score": 55,
+    "sentiment": "neutral",
+    "status": "Sent",
+    "assignedTo": "agent-002",
+    "propertyInterests": [],
+    "notes": "First-time buyer inquiry. Asking about commission rates.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T11:38:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T11:38:00.000Z",
+    "updatedAt": "2024-12-15T11:38:00.000Z"
+  },
+  {
+    "id": "lead-006",
+    "name": "Brian O'Sullivan",
+    "handle": "@brian.osullivan",
+    "platform": "Instagram",
+    "contact": {
+      "email": "brian.osullivan@email.com",
+      "phone": null
+    },
+    "budget": {
+      "min": 500000,
+      "max": 560000
+    },
+    "location": "Downtown",
+    "intent": "buy",
+    "inquiryType": "availability",
+    "score": 70,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-005"],
+    "notes": "Interested in Elm Avenue Victorian open house this Saturday.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T12:01:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T12:01:00.000Z",
+    "updatedAt": "2024-12-15T12:01:00.000Z"
+  },
+  {
+    "id": "lead-007",
+    "name": "Samantha Brooks",
+    "handle": "@sambrooks_design",
+    "platform": "Facebook",
+    "contact": {
+      "email": "samantha.brooks@email.com",
+      "phone": "+1 (555) 567-8901"
+    },
+    "budget": {
+      "min": 380000,
+      "max": 475000
+    },
+    "location": "Westfield",
+    "intent": "buy-sell",
+    "inquiryType": "general",
+    "score": 85,
+    "sentiment": "neutral",
+    "status": "Escalated",
+    "assignedTo": "agent-001",
+    "propertyInterests": [],
+    "notes": "Needs to sell current Westfield home before buying. Dual transaction coordination required.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T12:34:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T12:34:00.000Z",
+    "updatedAt": "2024-12-15T12:34:00.000Z"
+  },
+  {
+    "id": "lead-008",
+    "name": "Tyler Washington",
+    "handle": "@twashington",
+    "platform": "Instagram",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": 330000,
+      "max": 400000
+    },
+    "location": "Lakeside",
+    "intent": "buy",
+    "inquiryType": "pricing",
+    "score": 68,
+    "sentiment": "neutral",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-007"],
+    "notes": "Asking about HOA fees and parking at Lakeside Towers.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T13:15:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T13:15:00.000Z",
+    "updatedAt": "2024-12-15T13:15:00.000Z"
+  },
+  {
+    "id": "lead-009",
+    "name": "Elena Kowalski",
+    "handle": "@elena.k",
+    "platform": "Facebook",
+    "contact": {
+      "email": "elena.kowalski@email.com",
+      "phone": "+1 (555) 678-9012"
+    },
+    "budget": {
+      "min": 280000,
+      "max": 420000
+    },
+    "location": null,
+    "intent": "rent-then-buy",
+    "inquiryType": "general",
+    "score": 78,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": [],
+    "notes": "Relocating from Chicago. Needs rental first, then plans to buy within 6 months.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T13:42:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T13:42:00.000Z",
+    "updatedAt": "2024-12-15T13:42:00.000Z"
+  },
+  {
+    "id": "lead-010",
+    "name": "James Rivera",
+    "handle": "@jrivera_builds",
+    "platform": "Instagram",
+    "contact": {
+      "email": "james.rivera@email.com",
+      "phone": "+1 (555) 789-0123"
+    },
+    "budget": {
+      "min": 600000,
+      "max": 700000
+    },
+    "location": "Pine Ridge",
+    "intent": "invest",
+    "inquiryType": "property",
+    "score": 90,
+    "sentiment": "positive",
+    "status": "Drafted",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-009"],
+    "notes": "Developer evaluating teardown opportunity at 305 Pine Ridge Road. Interested in lot size and zoning.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T14:08:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T14:08:00.000Z",
+    "updatedAt": "2024-12-15T14:08:00.000Z"
+  },
+  {
+    "id": "lead-011",
+    "name": "Olivia Grant",
+    "handle": "@oliviagrant",
+    "platform": "Facebook",
+    "contact": {
+      "email": "olivia.grant@email.com",
+      "phone": null
+    },
+    "budget": {
+      "min": 280000,
+      "max": 350000
+    },
+    "location": "Greenwood",
+    "intent": "buy",
+    "inquiryType": "property",
+    "score": 72,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-001", "prop-008"],
+    "notes": "Looking for pet-friendly listings with fenced yard. Has two large dogs. Budget around $350k.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T14:30:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T14:30:00.000Z",
+    "updatedAt": "2024-12-15T14:30:00.000Z"
+  },
+  {
+    "id": "lead-012",
+    "name": "Kevin Park",
+    "handle": "@kevinpark.re",
+    "platform": "Instagram",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": 250000,
+      "max": 310000
+    },
+    "location": "Greenwood",
+    "intent": "buy",
+    "inquiryType": "pricing",
+    "score": 65,
+    "sentiment": "negative",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-008"],
+    "notes": "Viewed virtual tour of 22 Birch Lane. Concerned about outdated kitchen. Asking about price reduction.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T14:55:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T14:55:00.000Z",
+    "updatedAt": "2024-12-15T14:55:00.000Z"
+  },
+  {
+    "id": "lead-013",
+    "name": "Natalie Foster",
+    "handle": "@natfoster",
+    "platform": "Facebook",
+    "contact": {
+      "email": "natalie.foster@email.com",
+      "phone": "+1 (555) 890-1234"
+    },
+    "budget": {
+      "min": 450000,
+      "max": 530000
+    },
+    "location": "Lincoln District",
+    "intent": "buy",
+    "inquiryType": "availability",
+    "score": 81,
+    "sentiment": "positive",
+    "status": "Sent",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-016"],
+    "notes": "Looking for new construction in Lincoln Elementary school district. Needs at least 4 bedrooms.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T15:20:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T15:20:00.000Z",
+    "updatedAt": "2024-12-15T15:20:00.000Z"
+  },
+  {
+    "id": "lead-014",
+    "name": "Carlos Mendez",
+    "handle": "@carlosmendez",
+    "platform": "Instagram",
+    "contact": {
+      "email": "carlos.mendez@email.com",
+      "phone": "+1 (555) 901-2345"
+    },
+    "budget": {
+      "min": 3000,
+      "max": 5000
+    },
+    "location": "Downtown",
+    "intent": "lease-commercial",
+    "inquiryType": "property",
+    "score": 86,
+    "sentiment": "positive",
+    "status": "Escalated",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-017"],
+    "notes": "Restaurant owner looking for ~2,000 sq ft commercial space with good foot traffic.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T15:48:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T15:48:00.000Z",
+    "updatedAt": "2024-12-15T15:48:00.000Z"
+  },
+  {
+    "id": "lead-015",
+    "name": "Hannah Lee",
+    "handle": "@hannahlee_",
+    "platform": "Facebook",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": null,
+      "max": null
+    },
+    "location": "Greenwood",
+    "intent": "research",
+    "inquiryType": "pricing",
+    "score": 42,
+    "sentiment": "neutral",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": [],
+    "notes": "General inquiry about average price per square foot in Greenwood area.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T16:10:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T16:10:00.000Z",
+    "updatedAt": "2024-12-15T16:10:00.000Z"
+  },
+  {
+    "id": "lead-016",
+    "name": "Robert Kim",
+    "handle": "@robkim",
+    "platform": "Instagram",
+    "contact": {
+      "email": "robert.kim@email.com",
+      "phone": "+1 (555) 012-3456"
+    },
+    "budget": {
+      "min": 440000,
+      "max": 490000
+    },
+    "location": "Greenwood",
+    "intent": "buy",
+    "inquiryType": "general",
+    "score": 95,
+    "sentiment": "negative",
+    "status": "Escalated",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-014"],
+    "notes": "Submitted offer on 55 Cedar Court last week. Awaiting response. Frustrated with lack of update.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T16:35:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T16:35:00.000Z",
+    "updatedAt": "2024-12-15T16:35:00.000Z"
+  },
+  {
+    "id": "lead-017",
+    "name": "Michelle Adams",
+    "handle": "@michelleadams.home",
+    "platform": "Facebook",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": 320000,
+      "max": 370000
+    },
+    "location": "Westfield",
+    "intent": "buy",
+    "inquiryType": "availability",
+    "score": 60,
+    "sentiment": "neutral",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-010"],
+    "notes": "Asking about availability of townhouse at 88 Willow Street. Listing shows pending.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T17:02:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T17:02:00.000Z",
+    "updatedAt": "2024-12-15T17:02:00.000Z"
+  },
+  {
+    "id": "lead-018",
+    "name": "Derek Johnson",
+    "handle": "@derekj_invest",
+    "platform": "Instagram",
+    "contact": {
+      "email": "derek.johnson@email.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    "budget": {
+      "min": 450000,
+      "max": 550000
+    },
+    "location": "Harbor View",
+    "intent": "invest",
+    "inquiryType": "pricing",
+    "score": 91,
+    "sentiment": "neutral",
+    "status": "Drafted",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-011"],
+    "notes": "Comparing investment properties. Asking about cap rate on Harbor View duplex.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T17:28:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T17:28:00.000Z",
+    "updatedAt": "2024-12-15T17:28:00.000Z"
+  },
+  {
+    "id": "lead-019",
+    "name": "Lisa Chang",
+    "handle": "@lisachang",
+    "platform": "Facebook",
+    "contact": {
+      "email": "lisa.chang@email.com",
+      "phone": "+1 (555) 234-5679"
+    },
+    "budget": {
+      "min": 220000,
+      "max": 300000
+    },
+    "location": null,
+    "intent": "buy",
+    "inquiryType": "availability",
+    "score": 77,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-008", "prop-012", "prop-018"],
+    "notes": "Expecting first child. Upgrading from 1-bedroom apartment. Needs 2+ bedrooms under $300k.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T17:55:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T17:55:00.000Z",
+    "updatedAt": "2024-12-15T17:55:00.000Z"
+  },
+  {
+    "id": "lead-020",
+    "name": "Anthony Russo",
+    "handle": "@anthonyrusso",
+    "platform": "Instagram",
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "budget": {
+      "min": null,
+      "max": null
+    },
+    "location": "Westfield",
+    "intent": "research",
+    "inquiryType": "availability",
+    "score": 48,
+    "sentiment": "neutral",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-013"],
+    "notes": "Asking about 410 Sunset Blvd listing status. Property was withdrawn by seller.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T18:20:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T18:20:00.000Z",
+    "updatedAt": "2024-12-15T18:20:00.000Z"
+  },
+  {
+    "id": "lead-021",
+    "name": "Priya Sharma",
+    "handle": "@priya.sharma.homes",
+    "platform": "Facebook",
+    "contact": {
+      "email": "priya.sharma@email.com",
+      "phone": "+1 (555) 345-6780"
+    },
+    "budget": {
+      "min": 250000,
+      "max": 380000
+    },
+    "location": "Lakeside",
+    "intent": "buy",
+    "inquiryType": "general",
+    "score": 73,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-001",
+    "propertyInterests": [],
+    "notes": "Downsizing after kids moved out. Looking for single-story, low-maintenance home. Seeking neighborhood recommendations.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T18:45:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T18:45:00.000Z",
+    "updatedAt": "2024-12-15T18:45:00.000Z"
+  },
+  {
+    "id": "lead-022",
+    "name": "Jordan Blake",
+    "handle": "@jordanblake",
+    "platform": "Instagram",
+    "contact": {
+      "email": "jordan.blake@email.com",
+      "phone": null
+    },
+    "budget": {
+      "min": 250000,
+      "max": 300000
+    },
+    "location": "Downtown",
+    "intent": "buy",
+    "inquiryType": "property",
+    "score": 83,
+    "sentiment": "positive",
+    "status": "Drafted",
+    "assignedTo": "agent-001",
+    "propertyInterests": ["prop-012"],
+    "notes": "Wants to schedule showing for Market Street loft on Thursday afternoon. Asking about monthly utilities.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T19:10:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T19:10:00.000Z",
+    "updatedAt": "2024-12-15T19:10:00.000Z"
+  },
+  {
+    "id": "lead-023",
+    "name": "Megan Torres",
+    "handle": "@megantorres",
+    "platform": "Facebook",
+    "contact": {
+      "email": "megan.torres@email.com",
+      "phone": "+1 (555) 456-7891"
+    },
+    "budget": {
+      "min": 350000,
+      "max": 450000
+    },
+    "location": null,
+    "intent": "buy",
+    "inquiryType": "general",
+    "score": 87,
+    "sentiment": "negative",
+    "status": "Escalated",
+    "assignedTo": "agent-001",
+    "propertyInterests": [],
+    "notes": "Unhappy with inspection results showing foundation issues. Needs guidance on renegotiation or walking away.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T19:38:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T19:38:00.000Z",
+    "updatedAt": "2024-12-15T19:38:00.000Z"
+  },
+  {
+    "id": "lead-024",
+    "name": "William Okafor",
+    "handle": "@will.okafor",
+    "platform": "Instagram",
+    "contact": {
+      "email": "william.okafor@email.com",
+      "phone": null
+    },
+    "budget": {
+      "min": 275000,
+      "max": 350000
+    },
+    "location": "Downtown",
+    "intent": "invest",
+    "inquiryType": "property",
+    "score": 79,
+    "sentiment": "positive",
+    "status": "New",
+    "assignedTo": "agent-002",
+    "propertyInterests": ["prop-015"],
+    "notes": "Looking for properties near new 5th Avenue metro station. Focused on appreciation potential.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T20:05:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T20:05:00.000Z",
+    "updatedAt": "2024-12-15T20:05:00.000Z"
+  },
+  {
+    "id": "lead-025",
+    "name": "Sarah Mitchell",
+    "handle": "@sarahmitchell",
+    "platform": "Facebook",
+    "contact": {
+      "email": "sarah.mitchell@email.com",
+      "phone": "+1 (555) 567-8902"
+    },
+    "budget": {
+      "min": 400000,
+      "max": 450000
+    },
+    "location": null,
+    "intent": "sell",
+    "inquiryType": "pricing",
+    "score": 96,
+    "sentiment": "positive",
+    "status": "Sent",
+    "assignedTo": "agent-001",
+    "propertyInterests": [],
+    "notes": "Ready to list home at $425k based on comps. Wants to sign listing agreement ASAP.",
+    "hasConsent": true,
+    "consentDate": "2024-12-15T20:30:00.000Z",
+    "consentSource": "dm",
+    "createdAt": "2024-12-15T20:30:00.000Z",
+    "updatedAt": "2024-12-15T20:30:00.000Z"
+  }
+]

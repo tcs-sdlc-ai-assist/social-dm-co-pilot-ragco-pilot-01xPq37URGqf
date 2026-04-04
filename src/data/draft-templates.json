@@ -1,0 +1,282 @@
+[
+  {
+    "id": "tpl-001",
+    "category": "availability",
+    "name": "Property Availability - Active",
+    "templateText": "Hi {{senderName}}! Thanks for reaching out. Yes, the {{propertyName}} at {{propertyAddress}} is currently available and listed at {{listPrice}}. It features {{bedrooms}} bedrooms and {{bathrooms}} bathrooms with {{squareFeet}} sq ft of living space. Would you like to schedule a showing? We have availability 7 days a week between 9 AM and 7 PM.",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "listPrice", "bedrooms", "bathrooms", "squareFeet"],
+    "suggestedNextSteps": ["Schedule a showing", "Send virtual tour link", "Provide comparable listings"],
+    "confidence": 0.92,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-002",
+    "category": "availability",
+    "name": "Property Availability - Pending",
+    "templateText": "Hi {{senderName}}! Thank you for your interest in {{propertyName}}. This property is currently under contract, but we are accepting backup offers. Would you like us to add you to the backup list? We also have similar properties in the {{location}} area that might be a great fit for you.",
+    "placeholders": ["senderName", "propertyName", "location"],
+    "suggestedNextSteps": ["Add to backup offer list", "Send similar active listings", "Schedule consultation"],
+    "confidence": 0.88,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-003",
+    "category": "availability",
+    "name": "Property Availability - Withdrawn",
+    "templateText": "Hi {{senderName}}! Thanks for asking about {{propertyName}} at {{propertyAddress}}. That listing has been temporarily withdrawn by the seller for personal reasons. It may return to market in the future. In the meantime, can I help you find something similar in the area? I have a few options that might interest you.",
+    "placeholders": ["senderName", "propertyName", "propertyAddress"],
+    "suggestedNextSteps": ["Offer alternative listings", "Add to notification list for relisting", "Schedule buyer consultation"],
+    "confidence": 0.85,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-004",
+    "category": "pricing",
+    "name": "Price Range Inquiry",
+    "templateText": "Hi {{senderName}}! Great question. The {{propertyName}} is listed at {{listPrice}}. Properties in the {{location}} area generally range from {{priceMin}} to {{priceMax}} depending on size and features. With your pre-approval of up to {{budget}}, you have some excellent options. Would you like me to put together a list of properties within your budget?",
+    "placeholders": ["senderName", "propertyName", "listPrice", "location", "priceMin", "priceMax", "budget"],
+    "suggestedNextSteps": ["Send curated property list", "Provide market analysis", "Schedule showing for top picks"],
+    "confidence": 0.91,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-005",
+    "category": "pricing",
+    "name": "HOA and Fees Inquiry",
+    "templateText": "Hi {{senderName}}! The HOA fees at {{propertyName}} are {{hoaFees}}/month. This typically covers {{hoaIncludes}}. {{parkingDetails}} I'm happy to provide a full breakdown of all monthly costs so you can plan your budget. Would that be helpful?",
+    "placeholders": ["senderName", "propertyName", "hoaFees", "hoaIncludes", "parkingDetails"],
+    "suggestedNextSteps": ["Send full cost breakdown", "Compare with similar properties", "Schedule showing"],
+    "confidence": 0.87,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-006",
+    "category": "pricing",
+    "name": "Price Per Square Foot Inquiry",
+    "templateText": "Hi {{senderName}}! The average price per square foot in the {{location}} area is currently around {{pricePerSqFt}}, depending on property condition and specific location within the neighborhood. This has increased approximately {{yearOverYearChange}} over the past year. Would you like a more detailed market analysis for a specific property type?",
+    "placeholders": ["senderName", "location", "pricePerSqFt", "yearOverYearChange"],
+    "suggestedNextSteps": ["Send detailed market analysis", "Discuss investment potential", "Schedule consultation"],
+    "confidence": 0.83,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-007",
+    "category": "pricing",
+    "name": "Cap Rate and Investment Inquiry",
+    "templateText": "Hi {{senderName}}! The cap rate on {{propertyName}} at {{propertyAddress}} is {{capRate}}%. In our area, cap rates for multi-family properties typically range from 5-7%. This property is {{listPrice}} with {{units}} units and strong rental history. Would you like to see the full income and expense breakdown?",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "capRate", "listPrice", "units"],
+    "suggestedNextSteps": ["Send income/expense statement", "Compare with other investment properties", "Schedule property tour"],
+    "confidence": 0.90,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-008",
+    "category": "pricing",
+    "name": "Price Reduction Inquiry",
+    "templateText": "Hi {{senderName}}! Thanks for viewing the virtual tour of {{propertyName}}. You're right that the kitchen could use some updating — the property is priced accordingly at {{listPrice}}, which is competitive for the area. We can certainly discuss an offer strategy that accounts for renovation costs. Would you like to schedule an in-person visit to get a better feel for the space?",
+    "placeholders": ["senderName", "propertyName", "listPrice"],
+    "suggestedNextSteps": ["Schedule in-person showing", "Provide renovation cost estimates", "Discuss offer strategy"],
+    "confidence": 0.82,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-009",
+    "category": "property",
+    "name": "Property Details Inquiry",
+    "templateText": "Hi {{senderName}}! Happy to share more about {{propertyName}} at {{propertyAddress}}. It's a {{bedrooms}}-bedroom, {{bathrooms}}-bath home with {{squareFeet}} sq ft on a {{lotSize}} lot. Key features include {{features}}. {{description}} Would you like to schedule a showing to see it in person?",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "bedrooms", "bathrooms", "squareFeet", "lotSize", "features", "description"],
+    "suggestedNextSteps": ["Schedule showing", "Send additional photos", "Provide neighborhood information"],
+    "confidence": 0.93,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-010",
+    "category": "property",
+    "name": "Pet-Friendly Listings",
+    "templateText": "Hi {{senderName}}! Great news — we have several pet-friendly listings that could work for you and your furry family members. Within your budget of {{budget}}, I'd recommend checking out: {{recommendedProperties}}. All of these have fenced yards suitable for larger dogs. Want me to set up showings for any of these?",
+    "placeholders": ["senderName", "budget", "recommendedProperties"],
+    "suggestedNextSteps": ["Schedule showings for recommended properties", "Send detailed listing sheets", "Discuss pet-specific requirements"],
+    "confidence": 0.86,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-011",
+    "category": "property",
+    "name": "Multi-Family / Investment Property",
+    "templateText": "Hi {{senderName}}! We do have investment properties available in the {{location}} area. I'd recommend looking at {{propertyName}} at {{propertyAddress}} — it's a {{units}}-unit property listed at {{listPrice}} with a cap rate of {{capRate}}%. {{description}} Shall I send over the full financials?",
+    "placeholders": ["senderName", "location", "propertyName", "propertyAddress", "units", "listPrice", "capRate", "description"],
+    "suggestedNextSteps": ["Send financial package", "Schedule property tour", "Discuss investment strategy"],
+    "confidence": 0.89,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-012",
+    "category": "property",
+    "name": "Commercial Space Inquiry",
+    "templateText": "Hi {{senderName}}! We have a great commercial space that could be perfect for your needs. The property at {{propertyAddress}} offers {{squareFeet}} sq ft in a {{features}} location. {{description}} The monthly rent is {{monthlyRent}}. Would you like to schedule a walkthrough?",
+    "placeholders": ["senderName", "propertyAddress", "squareFeet", "features", "description", "monthlyRent"],
+    "suggestedNextSteps": ["Schedule walkthrough", "Send lease terms", "Discuss build-out options"],
+    "confidence": 0.84,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-013",
+    "category": "property",
+    "name": "Transit-Adjacent Property",
+    "templateText": "Hi {{senderName}}! Great thinking — properties near transit hubs historically see strong appreciation. We have listings within walking distance of the new metro station, including {{propertyName}} at {{propertyAddress}}, listed at {{listPrice}}. {{description}} This is a great time to invest in the area. Want to learn more?",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "listPrice", "description"],
+    "suggestedNextSteps": ["Send transit area market report", "Schedule showing", "Discuss appreciation projections"],
+    "confidence": 0.87,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-014",
+    "category": "property",
+    "name": "School District Inquiry",
+    "templateText": "Hi {{senderName}}! We have options in the {{schoolDistrict}} school district. I'd recommend {{propertyName}} at {{propertyAddress}} — it's a {{bedrooms}}-bedroom {{propertyType}} listed at {{listPrice}}. {{description}} Would you like to schedule a showing or see additional options in this district?",
+    "placeholders": ["senderName", "schoolDistrict", "propertyName", "propertyAddress", "bedrooms", "propertyType", "listPrice", "description"],
+    "suggestedNextSteps": ["Schedule showing", "Send school district listings", "Provide school ratings information"],
+    "confidence": 0.88,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-015",
+    "category": "property",
+    "name": "Budget-Filtered Recommendations",
+    "templateText": "Hi {{senderName}}! Congratulations on the exciting news! Based on your budget of under {{budget}} and need for {{bedrooms}}+ bedrooms, here are some options I'd recommend: {{recommendedProperties}}. Each of these is move-in ready and in a great location. Would you like to schedule showings for any of these?",
+    "placeholders": ["senderName", "budget", "bedrooms", "recommendedProperties"],
+    "suggestedNextSteps": ["Schedule showings", "Send detailed listing comparisons", "Connect with mortgage lender"],
+    "confidence": 0.85,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-016",
+    "category": "general",
+    "name": "Commission and First-Time Buyer",
+    "templateText": "Hi {{senderName}}! Great questions. Our standard commission rate is 5-6% of the sale price, split between the buyer's and seller's agents. And yes, we absolutely love working with first-time buyers! We'll guide you through every step, from getting pre-approved to closing day. We also offer a complimentary buyer consultation at no obligation. Would you like to set one up?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Schedule buyer consultation", "Send first-time buyer guide", "Connect with preferred lenders"],
+    "confidence": 0.90,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-017",
+    "category": "general",
+    "name": "Buy and Sell Coordination",
+    "templateText": "Hi {{senderName}}! Yes, we handle both buy-side and sell-side transactions. We can coordinate the timing of selling your current home and purchasing a new one to make the transition as smooth as possible. We also have bridge financing referrals if needed. Would you like to start with a free valuation of your current home in {{location}}?",
+    "placeholders": ["senderName", "location"],
+    "suggestedNextSteps": ["Schedule home valuation", "Discuss timeline coordination", "Provide bridge financing referrals"],
+    "confidence": 0.86,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-018",
+    "category": "general",
+    "name": "Relocation Assistance",
+    "templateText": "Hi {{senderName}}! Welcome — we'd be happy to help with your relocation. We can assist with finding a rental first while you get settled, and then transition to a home search when you're ready. We have access to rental listings across all our service areas. Would you like to start by telling me more about what you're looking for in a rental?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Gather rental requirements", "Send rental listings", "Schedule virtual consultation"],
+    "confidence": 0.81,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-019",
+    "category": "general",
+    "name": "Downsizer Recommendations",
+    "templateText": "Hi {{senderName}}! That's an exciting new chapter. For single-story, low-maintenance living, I'd recommend looking at the Lakeside area (great condo options with amenities), Westfield (established neighborhood with smaller ranch homes), and the newer townhouse developments in Greenwood. Each offers walkability and proximity to shopping and healthcare. Would you like me to put together some specific listings?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Send curated downsizer listings", "Schedule neighborhood tours", "Discuss lifestyle priorities"],
+    "confidence": 0.84,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-020",
+    "category": "general",
+    "name": "Inspection Issues Guidance",
+    "templateText": "Hi {{senderName}}, I understand your concern about the inspection results. With foundation issues, you have several options: 1) Request the seller make repairs before closing, 2) Negotiate a price reduction to account for repair costs, 3) Request a seller credit at closing, or 4) Exercise your inspection contingency to walk away. Given the severity of foundation issues, I'd recommend we discuss this in detail. Can we schedule a call to go over your options?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Schedule phone consultation", "Request repair estimates", "Review contract contingencies"],
+    "confidence": 0.78,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-021",
+    "category": "general",
+    "name": "Offer Status Follow-Up",
+    "templateText": "Hi {{senderName}}, thank you for your patience. I understand the wait can be stressful. Let me check on the status of your offer on {{propertyName}} right away and get back to you with an update. The seller is currently evaluating multiple bids, and I'll make sure we have the latest information for you as soon as possible.",
+    "placeholders": ["senderName", "propertyName"],
+    "suggestedNextSteps": ["Contact listing agent for update", "Discuss backup plan", "Review offer terms"],
+    "confidence": 0.88,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-022",
+    "category": "showings",
+    "name": "Schedule Showing",
+    "templateText": "Hi {{senderName}}! I'd love to set up a showing for {{propertyName}} at {{propertyAddress}}. We offer showings 7 days a week between 9 AM and 7 PM. Does {{suggestedDay}} work for you? If not, just let me know your preferred date and time and I'll get it on the calendar. Virtual tours are also available if you'd like a preview first.",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "suggestedDay"],
+    "suggestedNextSteps": ["Confirm showing time", "Send virtual tour link", "Provide driving directions"],
+    "confidence": 0.91,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-023",
+    "category": "showings",
+    "name": "Open House Confirmation",
+    "templateText": "Hi {{senderName}}! Yes, the open house for {{propertyName}} at {{propertyAddress}} is still happening this Saturday from 11 AM to 2 PM. No appointment needed — just stop by! If you'd prefer a private showing at a different time, I'm happy to arrange that as well. Looking forward to seeing you there!",
+    "placeholders": ["senderName", "propertyName", "propertyAddress"],
+    "suggestedNextSteps": ["Send open house details and directions", "Offer private showing alternative", "Add to open house RSVP list"],
+    "confidence": 0.93,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-024",
+    "category": "showings",
+    "name": "Showing with Utility Details",
+    "templateText": "Hi {{senderName}}! I'd be happy to schedule a showing for {{propertyName}} at {{propertyAddress}}. Regarding utilities, the average monthly cost is approximately {{monthlyUtilities}}. The unit features {{features}}. Does {{suggestedDay}} afternoon work for you? I'll block out some time so we can take a thorough look.",
+    "placeholders": ["senderName", "propertyName", "propertyAddress", "monthlyUtilities", "features", "suggestedDay"],
+    "suggestedNextSteps": ["Confirm showing appointment", "Send full cost breakdown", "Provide neighborhood guide"],
+    "confidence": 0.89,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-025",
+    "category": "process",
+    "name": "Mortgage Pre-Approval Guidance",
+    "templateText": "Hi {{senderName}}! Getting pre-approved is a great first step. The process typically requires proof of income, employment verification, a credit check, and bank statements. Pre-approval usually takes 1-3 business days and gives you a clear budget to work with. We work with several trusted lenders who can help. Would you like me to connect you with one of our preferred lenders?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Connect with preferred lender", "Send pre-approval checklist", "Schedule buyer consultation"],
+    "confidence": 0.86,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-026",
+    "category": "process",
+    "name": "Listing Process Overview",
+    "templateText": "Hi {{senderName}}! Excited to get started. Our listing process includes: 1) Free home valuation with comparable market analysis, 2) Pricing strategy discussion, 3) Listing agreement signing, 4) Professional photography and staging consultation, 5) MLS listing and marketing, 6) Showing and open house management, and 7) Offer negotiation through closing. When would be a good time to meet and sign the listing agreement?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Schedule listing agreement signing", "Arrange home valuation", "Discuss staging options"],
+    "confidence": 0.92,
+    "sentiment": "positive"
+  },
+  {
+    "id": "tpl-027",
+    "category": "process",
+    "name": "Closing Costs Explanation",
+    "templateText": "Hi {{senderName}}! Closing costs typically range from 2-5% of the purchase price for buyers and 6-10% for sellers (including agent commissions). Buyer costs include loan origination fees, appraisal, title insurance, and escrow fees. We provide a detailed estimate early in the process so there are no surprises. Would you like me to prepare a preliminary cost estimate based on your target price range?",
+    "placeholders": ["senderName"],
+    "suggestedNextSteps": ["Prepare closing cost estimate", "Connect with title company", "Review financing options"],
+    "confidence": 0.85,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "tpl-028",
+    "category": "process",
+    "name": "Offer Strategy Discussion",
+    "templateText": "Hi {{senderName}}! You can absolutely make an offer at any price. Whether a below-asking offer is advisable depends on market conditions, how long the property has been listed, comparable sales, and the property's condition. I can provide a competitive market analysis to help you determine a strong offer price for {{propertyName}}. Would you like me to put that together?",
+    "placeholders": ["senderName", "propertyName"],
+    "suggestedNextSteps": ["Prepare comparative market analysis", "Discuss offer terms and contingencies", "Review recent comparable sales"],
+    "confidence": 0.84,
+    "sentiment": "neutral"
+  }
+]

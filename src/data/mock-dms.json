@@ -1,0 +1,502 @@
+[
+  {
+    "id": "dm-001",
+    "sender": {
+      "name": "Jessica Martinez",
+      "handle": "@jessicam_realty",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T09:23:00.000Z",
+    "content": "Hi! I saw your listing on Oak Street. Is the 3-bedroom still available? We're looking to move in by February.",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 82,
+      "sentiment": "positive",
+      "confidence": 0.91,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T09:23:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-002",
+    "sender": {
+      "name": "Marcus Thompson",
+      "handle": "@marcust",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T10:05:00.000Z",
+    "content": "What's the price range for the condos in the Riverside development? I'm pre-approved for up to $450k.",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 88,
+      "sentiment": "positive",
+      "confidence": 0.94,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T10:05:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-003",
+    "sender": {
+      "name": "Aisha Patel",
+      "handle": "@aisha.patel.homes",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T10:47:00.000Z",
+    "content": "Can you tell me more about the property at 142 Maple Drive? How many square feet is it and does it have a garage?",
+    "status": "Drafted",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 75,
+      "sentiment": "neutral",
+      "confidence": 0.87,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T10:47:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-004",
+    "sender": {
+      "name": "David Chen",
+      "handle": "@dchen_investor",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T11:12:00.000Z",
+    "content": "I'm interested in multi-family properties in the downtown area. Do you have anything with 4+ units currently listed?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 92,
+      "sentiment": "positive",
+      "confidence": 0.89,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T11:12:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-005",
+    "sender": {
+      "name": "Rachel Nguyen",
+      "handle": "@racheln",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T11:38:00.000Z",
+    "content": "Hey, just wondering what your commission rate is? Also do you work with first-time buyers?",
+    "status": "Sent",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 55,
+      "sentiment": "neutral",
+      "confidence": 0.78,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T11:38:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-006",
+    "sender": {
+      "name": "Brian O'Sullivan",
+      "handle": "@brian.osullivan",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T12:01:00.000Z",
+    "content": "Is the open house for 78 Elm Avenue still happening this Saturday? What time does it start?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 70,
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T12:01:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-007",
+    "sender": {
+      "name": "Samantha Brooks",
+      "handle": "@sambrooks_design",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T12:34:00.000Z",
+    "content": "We need to sell our current home before buying. Can you handle both transactions? Our home is in the Westfield neighborhood.",
+    "status": "Escalated",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 85,
+      "sentiment": "neutral",
+      "confidence": 0.72,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T12:34:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-008",
+    "sender": {
+      "name": "Tyler Washington",
+      "handle": "@twashington",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T13:15:00.000Z",
+    "content": "How much are the HOA fees for the units at Lakeside Towers? Also is parking included?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 68,
+      "sentiment": "neutral",
+      "confidence": 0.82,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T13:15:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-009",
+    "sender": {
+      "name": "Elena Kowalski",
+      "handle": "@elena.k",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T13:42:00.000Z",
+    "content": "I'm relocating from Chicago for work and need to find a rental first, then possibly buy within 6 months. Can you help with both?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 78,
+      "sentiment": "positive",
+      "confidence": 0.76,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T13:42:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-010",
+    "sender": {
+      "name": "James Rivera",
+      "handle": "@jrivera_builds",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T14:08:00.000Z",
+    "content": "What's the lot size on the property at 305 Pine Ridge Road? I'm a developer looking at potential teardown opportunities.",
+    "status": "Drafted",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 90,
+      "sentiment": "positive",
+      "confidence": 0.93,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T14:08:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-011",
+    "sender": {
+      "name": "Olivia Grant",
+      "handle": "@oliviagrant",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T14:30:00.000Z",
+    "content": "Do you have any pet-friendly listings with a fenced yard? Budget is around $350k. We have two large dogs.",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 72,
+      "sentiment": "positive",
+      "confidence": 0.84,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T14:30:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-012",
+    "sender": {
+      "name": "Kevin Park",
+      "handle": "@kevinpark.re",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T14:55:00.000Z",
+    "content": "I saw the virtual tour for 22 Birch Lane. The kitchen looks outdated — has the seller considered any price reduction?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 65,
+      "sentiment": "negative",
+      "confidence": 0.80,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T14:55:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-013",
+    "sender": {
+      "name": "Natalie Foster",
+      "handle": "@natfoster",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T15:20:00.000Z",
+    "content": "Are there any new construction homes available in the school district for Lincoln Elementary? We need at least 4 bedrooms.",
+    "status": "Sent",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 81,
+      "sentiment": "positive",
+      "confidence": 0.88,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T15:20:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-014",
+    "sender": {
+      "name": "Carlos Mendez",
+      "handle": "@carlosmendez",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T15:48:00.000Z",
+    "content": "I'm looking for a commercial space for my restaurant. Around 2,000 sq ft with good foot traffic. What do you have?",
+    "status": "Escalated",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 86,
+      "sentiment": "positive",
+      "confidence": 0.75,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T15:48:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-015",
+    "sender": {
+      "name": "Hannah Lee",
+      "handle": "@hannahlee_",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T16:10:00.000Z",
+    "content": "Just curious — what's the average price per square foot in the Greenwood area right now?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 42,
+      "sentiment": "neutral",
+      "confidence": 0.71,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T16:10:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-016",
+    "sender": {
+      "name": "Robert Kim",
+      "handle": "@robkim",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T16:35:00.000Z",
+    "content": "We put in an offer last week on 55 Cedar Court and haven't heard back. Can you check on the status for us?",
+    "status": "Escalated",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 95,
+      "sentiment": "negative",
+      "confidence": 0.90,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T16:35:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-017",
+    "sender": {
+      "name": "Michelle Adams",
+      "handle": "@michelleadams.home",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T17:02:00.000Z",
+    "content": "Is the townhouse at 88 Willow Street still available? The listing says pending but I wanted to confirm.",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 60,
+      "sentiment": "neutral",
+      "confidence": 0.86,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T17:02:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-018",
+    "sender": {
+      "name": "Derek Johnson",
+      "handle": "@derekj_invest",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T17:28:00.000Z",
+    "content": "What's the cap rate on the duplex at 190 Harbor View? I'm comparing it against a few other investment properties.",
+    "status": "Drafted",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 91,
+      "sentiment": "neutral",
+      "confidence": 0.88,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T17:28:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-019",
+    "sender": {
+      "name": "Lisa Chang",
+      "handle": "@lisachang",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T17:55:00.000Z",
+    "content": "Hi there! My husband and I are expecting our first child and need to upgrade from our 1-bedroom apartment. What's available under $300k with at least 2 bedrooms?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 77,
+      "sentiment": "positive",
+      "confidence": 0.83,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T17:55:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-020",
+    "sender": {
+      "name": "Anthony Russo",
+      "handle": "@anthonyrusso",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T18:20:00.000Z",
+    "content": "I noticed the listing for 410 Sunset Blvd was taken down. Did it sell already or was it withdrawn?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "availability",
+      "leadScore": 48,
+      "sentiment": "neutral",
+      "confidence": 0.79,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T18:20:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-021",
+    "sender": {
+      "name": "Priya Sharma",
+      "handle": "@priya.sharma.homes",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T18:45:00.000Z",
+    "content": "We're downsizing after the kids moved out. Looking for a single-story home with low maintenance. What neighborhoods would you recommend?",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 73,
+      "sentiment": "positive",
+      "confidence": 0.81,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T18:45:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-022",
+    "sender": {
+      "name": "Jordan Blake",
+      "handle": "@jordanblake",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T19:10:00.000Z",
+    "content": "Can I schedule a showing for the loft at 12 Market Street this Thursday afternoon? Also what are the monthly utilities like?",
+    "status": "Drafted",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 83,
+      "sentiment": "positive",
+      "confidence": 0.92,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T19:10:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-023",
+    "sender": {
+      "name": "Megan Torres",
+      "handle": "@megantorres",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T19:38:00.000Z",
+    "content": "I'm not happy with the inspection results on the house we were looking at. There's foundation issues. Can we renegotiate or should we walk away?",
+    "status": "Escalated",
+    "metadata": {
+      "inquiryType": "general",
+      "leadScore": 87,
+      "sentiment": "negative",
+      "confidence": 0.74,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T19:38:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-024",
+    "sender": {
+      "name": "William Okafor",
+      "handle": "@will.okafor",
+      "platform": "Instagram"
+    },
+    "timestamp": "2024-12-15T20:05:00.000Z",
+    "content": "Do you have any listings near the new metro station they're building on 5th Ave? I want something that will appreciate well.",
+    "status": "New",
+    "metadata": {
+      "inquiryType": "property",
+      "leadScore": 79,
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T20:05:00.000Z",
+      "consentSource": "dm"
+    }
+  },
+  {
+    "id": "dm-025",
+    "sender": {
+      "name": "Sarah Mitchell",
+      "handle": "@sarahmitchell",
+      "platform": "Facebook"
+    },
+    "timestamp": "2024-12-15T20:30:00.000Z",
+    "content": "Thanks for sending over the comps yesterday. Based on those numbers, we'd like to list our home at $425k. When can we sign the listing agreement?",
+    "status": "Sent",
+    "metadata": {
+      "inquiryType": "pricing",
+      "leadScore": 96,
+      "sentiment": "positive",
+      "confidence": 0.95,
+      "hasConsent": true,
+      "consentDate": "2024-12-15T20:30:00.000Z",
+      "consentSource": "dm"
+    }
+  }
+]

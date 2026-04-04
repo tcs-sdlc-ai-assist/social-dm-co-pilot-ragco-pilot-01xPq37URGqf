@@ -1,0 +1,542 @@
+{
+  "properties": [
+    {
+      "id": "prop-001",
+      "name": "Oak Street Colonial",
+      "address": "247 Oak Street",
+      "location": "Westfield",
+      "type": "single-family",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1850,
+      "lotSize": "0.35 acres",
+      "priceRange": {
+        "min": 375000,
+        "max": 399000
+      },
+      "listPrice": 389000,
+      "features": ["hardwood floors", "updated kitchen", "fenced yard", "two-car garage", "central air"],
+      "availability": "active",
+      "yearBuilt": 1998,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Charming 3-bedroom colonial on a quiet tree-lined street. Recently updated kitchen with granite countertops and stainless steel appliances. Spacious fenced backyard perfect for families."
+    },
+    {
+      "id": "prop-002",
+      "name": "Riverside Condos Unit 4B",
+      "address": "100 Riverside Drive, Unit 4B",
+      "location": "Riverside",
+      "type": "condo",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1200,
+      "lotSize": null,
+      "priceRange": {
+        "min": 320000,
+        "max": 445000
+      },
+      "listPrice": 425000,
+      "features": ["river views", "modern finishes", "in-unit laundry", "balcony", "fitness center"],
+      "availability": "active",
+      "yearBuilt": 2022,
+      "hoaFees": 350,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Brand new luxury condo in the Riverside development. Floor-to-ceiling windows with stunning river views. Building amenities include fitness center, rooftop lounge, and concierge service."
+    },
+    {
+      "id": "prop-003",
+      "name": "Riverside Condos Unit 2A",
+      "address": "100 Riverside Drive, Unit 2A",
+      "location": "Riverside",
+      "type": "condo",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 850,
+      "lotSize": null,
+      "priceRange": {
+        "min": 320000,
+        "max": 445000
+      },
+      "listPrice": 329000,
+      "features": ["modern finishes", "in-unit laundry", "fitness center", "open floor plan"],
+      "availability": "active",
+      "yearBuilt": 2022,
+      "hoaFees": 300,
+      "parkingIncluded": true,
+      "petFriendly": false,
+      "description": "Efficient 1-bedroom unit in the sought-after Riverside development. Perfect for young professionals. Modern kitchen with quartz countertops and premium appliances."
+    },
+    {
+      "id": "prop-004",
+      "name": "Maple Drive Ranch",
+      "address": "142 Maple Drive",
+      "location": "Greenwood",
+      "type": "single-family",
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "squareFeet": 2400,
+      "lotSize": "0.5 acres",
+      "priceRange": {
+        "min": 410000,
+        "max": 435000
+      },
+      "listPrice": 425000,
+      "features": ["single-story", "attached garage", "updated bathrooms", "large lot", "screened porch"],
+      "availability": "active",
+      "yearBuilt": 2005,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Spacious single-story ranch home with 4 bedrooms and 2.5 baths. Attached two-car garage with extra storage. Large screened porch overlooking a beautifully landscaped half-acre lot."
+    },
+    {
+      "id": "prop-005",
+      "name": "Elm Avenue Victorian",
+      "address": "78 Elm Avenue",
+      "location": "Downtown",
+      "type": "single-family",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFeet": 2800,
+      "lotSize": "0.25 acres",
+      "priceRange": {
+        "min": 520000,
+        "max": 550000
+      },
+      "listPrice": 539000,
+      "features": ["original woodwork", "wrap-around porch", "updated systems", "walk-up attic", "period details"],
+      "availability": "active",
+      "yearBuilt": 1920,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Stunning Victorian with original architectural details lovingly preserved. Updated electrical, plumbing, and HVAC. Open house scheduled this Saturday from 11 AM to 2 PM."
+    },
+    {
+      "id": "prop-006",
+      "name": "Downtown Multi-Family",
+      "address": "315 Main Street",
+      "location": "Downtown",
+      "type": "multi-family",
+      "bedrooms": 8,
+      "bathrooms": 4,
+      "squareFeet": 4200,
+      "lotSize": "0.15 acres",
+      "units": 4,
+      "priceRange": {
+        "min": 680000,
+        "max": 720000
+      },
+      "listPrice": 699000,
+      "features": ["4 units", "separate utilities", "off-street parking", "coin laundry", "fully occupied"],
+      "availability": "active",
+      "yearBuilt": 1965,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": false,
+      "capRate": 6.8,
+      "description": "Well-maintained 4-unit multi-family property in prime downtown location. All units currently occupied with strong rental history. Separate utility meters for each unit. Excellent investment opportunity."
+    },
+    {
+      "id": "prop-007",
+      "name": "Lakeside Towers Unit 12C",
+      "address": "500 Lakeside Boulevard, Unit 12C",
+      "location": "Lakeside",
+      "type": "condo",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1100,
+      "lotSize": null,
+      "priceRange": {
+        "min": 350000,
+        "max": 380000
+      },
+      "listPrice": 365000,
+      "features": ["lake views", "pool", "doorman", "storage unit", "updated kitchen"],
+      "availability": "active",
+      "yearBuilt": 2010,
+      "hoaFees": 425,
+      "parkingIncluded": false,
+      "parkingCost": 150,
+      "petFriendly": true,
+      "description": "Beautiful 2-bedroom condo with panoramic lake views. HOA includes water, trash, pool, fitness center, and doorman. Parking available for additional $150/month."
+    },
+    {
+      "id": "prop-008",
+      "name": "Birch Lane Cape Cod",
+      "address": "22 Birch Lane",
+      "location": "Greenwood",
+      "type": "single-family",
+      "bedrooms": 3,
+      "bathrooms": 1.5,
+      "squareFeet": 1650,
+      "lotSize": "0.3 acres",
+      "priceRange": {
+        "min": 275000,
+        "max": 310000
+      },
+      "listPrice": 299000,
+      "features": ["cape cod style", "detached garage", "large yard", "quiet street", "near schools"],
+      "availability": "active",
+      "yearBuilt": 1978,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Classic Cape Cod on a quiet residential street. Kitchen is original and could use updating — priced accordingly. Great bones with a large yard and detached garage. Walking distance to Lincoln Elementary."
+    },
+    {
+      "id": "prop-009",
+      "name": "Pine Ridge Estate",
+      "address": "305 Pine Ridge Road",
+      "location": "Pine Ridge",
+      "type": "single-family",
+      "bedrooms": 5,
+      "bathrooms": 3.5,
+      "squareFeet": 3600,
+      "lotSize": "1.2 acres",
+      "priceRange": {
+        "min": 620000,
+        "max": 660000
+      },
+      "listPrice": 645000,
+      "features": ["large lot", "pool", "three-car garage", "home office", "finished basement"],
+      "availability": "active",
+      "yearBuilt": 2001,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Expansive estate on 1.2 acres with in-ground pool. Potential teardown/redevelopment opportunity given the generous lot size and R-2 zoning. Current home is well-maintained with 5 bedrooms and finished basement."
+    },
+    {
+      "id": "prop-010",
+      "name": "Willow Street Townhouse",
+      "address": "88 Willow Street",
+      "location": "Westfield",
+      "type": "townhouse",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "squareFeet": 1800,
+      "lotSize": null,
+      "priceRange": {
+        "min": 340000,
+        "max": 360000
+      },
+      "listPrice": 349000,
+      "features": ["end unit", "private patio", "attached garage", "updated kitchen", "community pool"],
+      "availability": "pending",
+      "yearBuilt": 2015,
+      "hoaFees": 200,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Desirable end-unit townhouse with extra windows and natural light. Private patio and attached one-car garage. Currently under contract — backup offers welcome."
+    },
+    {
+      "id": "prop-011",
+      "name": "Harbor View Duplex",
+      "address": "190 Harbor View Drive",
+      "location": "Harbor View",
+      "type": "multi-family",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "squareFeet": 2200,
+      "lotSize": "0.2 acres",
+      "units": 2,
+      "priceRange": {
+        "min": 480000,
+        "max": 510000
+      },
+      "listPrice": 495000,
+      "features": ["duplex", "separate entrances", "water views", "updated units", "off-street parking"],
+      "availability": "active",
+      "yearBuilt": 1990,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "capRate": 5.9,
+      "description": "Income-producing duplex with water views. Each unit has 2 bedrooms and 1 bath with separate entrances. Both units recently renovated. Strong rental market in the area. Cap rate of 5.9%."
+    },
+    {
+      "id": "prop-012",
+      "name": "Market Street Loft",
+      "address": "12 Market Street, Unit 3",
+      "location": "Downtown",
+      "type": "condo",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFeet": 950,
+      "lotSize": null,
+      "priceRange": {
+        "min": 260000,
+        "max": 285000
+      },
+      "listPrice": 275000,
+      "features": ["exposed brick", "high ceilings", "industrial style", "open floor plan", "rooftop access"],
+      "availability": "active",
+      "yearBuilt": 2018,
+      "hoaFees": 275,
+      "parkingIncluded": false,
+      "parkingCost": 125,
+      "petFriendly": true,
+      "monthlyUtilities": 120,
+      "description": "Stylish industrial loft in converted warehouse. 14-foot ceilings with exposed brick and ductwork. Shared rooftop terrace with city views. Average monthly utilities around $120."
+    },
+    {
+      "id": "prop-013",
+      "name": "Sunset Boulevard Craftsman",
+      "address": "410 Sunset Boulevard",
+      "location": "Westfield",
+      "type": "single-family",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1950,
+      "lotSize": "0.4 acres",
+      "priceRange": {
+        "min": 395000,
+        "max": 420000
+      },
+      "listPrice": 410000,
+      "features": ["craftsman style", "built-in shelving", "front porch", "mature landscaping", "updated systems"],
+      "availability": "withdrawn",
+      "yearBuilt": 1935,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Beautiful Craftsman bungalow with original built-ins and character. Listing has been temporarily withdrawn by the seller for personal reasons. May return to market in the spring."
+    },
+    {
+      "id": "prop-014",
+      "name": "Cedar Court Colonial",
+      "address": "55 Cedar Court",
+      "location": "Greenwood",
+      "type": "single-family",
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "squareFeet": 2600,
+      "lotSize": "0.45 acres",
+      "priceRange": {
+        "min": 450000,
+        "max": 480000
+      },
+      "listPrice": 465000,
+      "features": ["colonial style", "formal dining", "home office", "deck", "finished basement"],
+      "availability": "pending",
+      "yearBuilt": 2008,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Stately colonial in the heart of Greenwood. Offer currently under review — seller is evaluating multiple bids. Contact us for status updates."
+    },
+    {
+      "id": "prop-015",
+      "name": "5th Avenue Transit Condo",
+      "address": "820 5th Avenue, Unit 6A",
+      "location": "Downtown",
+      "type": "condo",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "squareFeet": 1050,
+      "lotSize": null,
+      "priceRange": {
+        "min": 290000,
+        "max": 320000
+      },
+      "listPrice": 305000,
+      "features": ["near metro station", "modern kitchen", "in-unit laundry", "bike storage", "energy efficient"],
+      "availability": "active",
+      "yearBuilt": 2023,
+      "hoaFees": 280,
+      "parkingIncluded": false,
+      "petFriendly": true,
+      "description": "New construction condo steps from the upcoming 5th Avenue metro station. Excellent appreciation potential with the transit expansion. Energy-efficient design with low utility costs."
+    },
+    {
+      "id": "prop-016",
+      "name": "Lincoln District New Construction",
+      "address": "200 Schoolhouse Lane",
+      "location": "Lincoln District",
+      "type": "single-family",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFeet": 2800,
+      "lotSize": "0.35 acres",
+      "priceRange": {
+        "min": 485000,
+        "max": 525000
+      },
+      "listPrice": 499000,
+      "features": ["new construction", "smart home", "energy star", "open concept", "mudroom"],
+      "availability": "active",
+      "yearBuilt": 2024,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "schoolDistrict": "Lincoln Elementary",
+      "description": "Brand new 4-bedroom home in the Lincoln Elementary school district. Smart home features throughout. Energy Star certified with high-efficiency HVAC. Builder warranty included."
+    },
+    {
+      "id": "prop-017",
+      "name": "Commercial Space - Market Square",
+      "address": "45 Market Square",
+      "location": "Downtown",
+      "type": "commercial",
+      "squareFeet": 2200,
+      "priceRange": {
+        "min": 3500,
+        "max": 4500
+      },
+      "monthlyRent": 4000,
+      "features": ["high foot traffic", "corner location", "grease trap", "hood ventilation", "ADA compliant"],
+      "availability": "active",
+      "yearBuilt": 1985,
+      "description": "Prime commercial space ideal for restaurant use. Corner location with excellent visibility and foot traffic. Existing grease trap and hood ventilation system. Previously operated as a café. Approximately 2,200 sq ft."
+    },
+    {
+      "id": "prop-018",
+      "name": "Greenwood Cottage",
+      "address": "67 Garden Path",
+      "location": "Greenwood",
+      "type": "single-family",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "squareFeet": 1100,
+      "lotSize": "0.2 acres",
+      "priceRange": {
+        "min": 225000,
+        "max": 260000
+      },
+      "listPrice": 245000,
+      "features": ["starter home", "fenced yard", "updated bath", "new roof", "low maintenance"],
+      "availability": "active",
+      "yearBuilt": 1972,
+      "hoaFees": null,
+      "parkingIncluded": true,
+      "petFriendly": true,
+      "description": "Adorable 2-bedroom cottage perfect for first-time buyers or downsizers. New roof installed 2023. Fenced yard with low-maintenance landscaping. Move-in ready under $250k."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-001",
+      "question": "What is your commission rate?",
+      "answer": "Our standard commission rate is 5-6% of the sale price, split between the buyer's and seller's agents. We're happy to discuss our fee structure in detail during a consultation. For first-time buyers, we offer a complimentary buyer consultation at no obligation.",
+      "category": "general"
+    },
+    {
+      "id": "faq-002",
+      "question": "Do you work with first-time home buyers?",
+      "answer": "Absolutely! We love working with first-time buyers. We'll guide you through every step of the process, from getting pre-approved for a mortgage to closing day. We can also connect you with lenders who offer first-time buyer programs with lower down payment requirements.",
+      "category": "general"
+    },
+    {
+      "id": "faq-003",
+      "question": "Can you help with both buying and selling?",
+      "answer": "Yes, we handle both buy-side and sell-side transactions. If you need to sell your current home before purchasing a new one, we can coordinate the timing of both transactions to make the transition as smooth as possible. We also offer bridge financing referrals if needed.",
+      "category": "general"
+    },
+    {
+      "id": "faq-004",
+      "question": "How do I schedule a showing?",
+      "answer": "You can schedule a showing by replying to this message with your preferred date and time, or by calling our office directly. We typically offer showings 7 days a week between 9 AM and 7 PM. Virtual tours are also available for most of our listings.",
+      "category": "showings"
+    },
+    {
+      "id": "faq-005",
+      "question": "What is the average price per square foot in Greenwood?",
+      "answer": "The average price per square foot in the Greenwood area is currently around $175-$195, depending on the property condition and specific location within the neighborhood. This has increased approximately 8% over the past year.",
+      "category": "pricing"
+    },
+    {
+      "id": "faq-006",
+      "question": "What neighborhoods do you recommend for downsizers?",
+      "answer": "For downsizers looking for single-story, low-maintenance living, we recommend the Lakeside area (great condo options with amenities), Westfield (established neighborhood with smaller ranch homes), and the newer townhouse developments in Greenwood. Each offers walkability and proximity to shopping and healthcare.",
+      "category": "general"
+    },
+    {
+      "id": "faq-007",
+      "question": "Do you have pet-friendly listings?",
+      "answer": "Many of our listings are pet-friendly! For homes with fenced yards suitable for larger dogs, we have several options in Greenwood, Westfield, and Pine Ridge. For condos and townhouses, pet policies vary by HOA — we can filter our listings based on your specific pet needs.",
+      "category": "property"
+    },
+    {
+      "id": "faq-008",
+      "question": "What are HOA fees and what do they cover?",
+      "answer": "HOA (Homeowners Association) fees vary by community. They typically cover exterior maintenance, common area upkeep, amenities like pools and fitness centers, and sometimes utilities like water and trash. Our condo listings range from $200-$425/month in HOA fees. We always provide a full breakdown of what's included.",
+      "category": "pricing"
+    },
+    {
+      "id": "faq-009",
+      "question": "Can you help with rental properties?",
+      "answer": "Yes, we can assist with finding rental properties as well as purchase opportunities. If you're relocating and need a rental first while you search for a home to buy, we can help coordinate both. We have access to rental listings across all our service areas.",
+      "category": "general"
+    },
+    {
+      "id": "faq-010",
+      "question": "What should I do if the inspection reveals problems?",
+      "answer": "If an inspection reveals issues, you have several options depending on your contract terms: 1) Request the seller make repairs before closing, 2) Negotiate a price reduction to account for repair costs, 3) Request a seller credit at closing, or 4) Exercise your inspection contingency to walk away. We'll advise you on the best approach based on the severity of the issues and current market conditions.",
+      "category": "process"
+    },
+    {
+      "id": "faq-011",
+      "question": "How long does the home buying process take?",
+      "answer": "From the time your offer is accepted, closing typically takes 30-45 days. The full process from initial search to closing can vary widely — some buyers find their home in a week, others take several months. Getting pre-approved before you start looking can speed things up significantly.",
+      "category": "process"
+    },
+    {
+      "id": "faq-012",
+      "question": "What is a cap rate and why does it matter?",
+      "answer": "Cap rate (capitalization rate) is a key metric for investment properties. It's calculated by dividing the property's net operating income by its purchase price. A higher cap rate generally indicates a higher potential return but may also come with higher risk. In our area, cap rates for multi-family properties typically range from 5-7%.",
+      "category": "pricing"
+    },
+    {
+      "id": "faq-013",
+      "question": "Are there properties near the new metro station?",
+      "answer": "Yes! The new metro station being built on 5th Avenue is expected to be completed in 2025. We have several listings within walking distance, including new construction condos at 820 5th Avenue. Properties near transit hubs historically see strong appreciation — this is a great time to invest in the area.",
+      "category": "property"
+    },
+    {
+      "id": "faq-014",
+      "question": "What school districts do your listings cover?",
+      "answer": "Our listings span several school districts. Notable ones include Lincoln Elementary (serving the Lincoln District and parts of Greenwood), Westfield Academy (serving Westfield and surrounding areas), and Downtown Charter School. We can filter listings by specific school district upon request.",
+      "category": "property"
+    },
+    {
+      "id": "faq-015",
+      "question": "How do I get pre-approved for a mortgage?",
+      "answer": "We recommend getting pre-approved before you start your home search. We work with several trusted lenders who can help. The process typically requires proof of income, employment verification, credit check, and bank statements. Pre-approval usually takes 1-3 business days and gives you a clear budget to work with.",
+      "category": "process"
+    },
+    {
+      "id": "faq-016",
+      "question": "What is the listing process for selling my home?",
+      "answer": "Our listing process includes: 1) Free home valuation with comparable market analysis, 2) Discuss pricing strategy and timeline, 3) Sign listing agreement, 4) Professional photography and staging consultation, 5) List on MLS and market across social media and our network, 6) Manage showings and open houses, 7) Negotiate offers and guide you through closing.",
+      "category": "process"
+    },
+    {
+      "id": "faq-017",
+      "question": "Do you offer virtual tours?",
+      "answer": "Yes, we offer virtual tours for most of our active listings. You can view them on our website or request a private virtual walkthrough via video call. This is especially helpful for out-of-town buyers or for an initial screening before scheduling an in-person visit.",
+      "category": "showings"
+    },
+    {
+      "id": "faq-018",
+      "question": "What are closing costs and how much should I expect?",
+      "answer": "Closing costs typically range from 2-5% of the purchase price for buyers and 6-10% for sellers (including agent commissions). Buyer costs include loan origination fees, appraisal, title insurance, and escrow fees. We provide a detailed estimate early in the process so there are no surprises.",
+      "category": "pricing"
+    },
+    {
+      "id": "faq-019",
+      "question": "Can I make an offer below asking price?",
+      "answer": "You can make an offer at any price. Whether a below-asking offer is advisable depends on market conditions, how long the property has been listed, comparable sales, and the property's condition. We'll provide a competitive market analysis to help you determine a strong offer price.",
+      "category": "process"
+    },
+    {
+      "id": "faq-020",
+      "question": "What commercial spaces do you have available?",
+      "answer": "We currently have commercial spaces available in the Downtown area, including a 2,200 sq ft corner space at Market Square that's ideal for restaurant use with existing hood ventilation and grease trap. We can also search our network for additional commercial listings based on your specific requirements.",
+      "category": "property"
+    }
+  ]
+}
